@@ -43,7 +43,7 @@ WORKDIR /data
 ENTRYPOINT [ "/start" ]
 
 ENV UID=1000 GID=1000 \
-    MOTD="A Minecraft Server Powered by Docker" \
+    MOTD="Albatrozz310's Minecraft Server" \
     JVM_XX_OPTS="-XX:+UseG1GC" MEMORY="1G" \
     TYPE=VANILLA VERSION=LATEST FORGEVERSION=RECOMMENDED LEVEL=world PVP=true DIFFICULTY=easy \
     ENABLE_RCON=true RCON_PORT=25575 RCON_PASSWORD=minecraft \
